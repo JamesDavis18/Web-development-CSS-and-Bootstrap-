@@ -1,0 +1,27 @@
+h1 { color : #ffff33; 
+	background : #3399ff;
+	font-family: georgia;
+	font-size: 300%;
+}
+
+h2 { color : blue; 
+	font-family : verdana;
+	font-size : 150%;
+}
+
+p { color : black; 
+	font-family : arial;
+	font-size : 100%;
+}
+
+div.large {width : 500px ; height : 250px ; border : 1px solid black }
+
+div.small { width : 170px ; height : 10px ; border : 1px solid black ; padding : 25px }
+
+div.top-left { position : absolute ; top : 0px ; left : 0px ; background : lime }
+
+div.top-right { position : absolute ; top : 0px ; right : 0px ; background : aqua }
+
+div.btm-left { position : absolute ; bottom : 0px ; left : 0px ; background : yellow }
+
+div.btm-right { position : absolute ; bottom : 0px ; right : 0px ; background : orange }

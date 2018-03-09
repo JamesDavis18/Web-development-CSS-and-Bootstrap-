@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Another Basic CSS Page</title>
+<link rel = "stylesheet" 
+   type = "text/css" 
+   href = "external2.css" />
+</head>
+
+<body>
+
+<div><a id="top">Top Anchor</a></div> <hr>
+
+<div>
+<p id="x"><span>Image repeats on separate document due to styling clash</span></p>
+</div>
+
+<div>
+<p>Content Box</p>
+<p class="pad">Content Box - Padded</p>
+<p class="pad bdr">Content Box - Padded + Border</p>
+<p class="pad bdr mgn"> Content box - Padded + Border + Margin</p>
+</div>
+
+<ul>
+	<li id="h"><a href="/html/default.asp" target="_blank">HTML</a></li>
+	<li id="c"><a href="/css/default.asp" target="_blank">CSS</a></li>
+	<li id="j"><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+</ul>
+	
+<h2>This is a visible heading</h2>
+<h2 class="hidden">This is a hidden heading</h2>
+<p>Notice that the h1 element with disply: none; does not take up any space.</p>
+
+<div><em><a id="bottom">Bottom Anchor</a></em></div> <hr>
+
+<div>
+<p> You must take into accoumt the dimensions of each of the components when creating a box model for your website.
+This example is for working out the dimensions of each component for 350px total element width.</p>
+<ul style="list-style-type:circle">
+	<li>320px (width)</li>
+	<li>+20px (left + right padding)</li>
+	<li>+10px (left + right border)</li>
+	<li>+0px (left + right margin)</li>
+	<li><em>Total = 350px</em></li>
+</ul>
+</div>
+
+</body>
+</html>

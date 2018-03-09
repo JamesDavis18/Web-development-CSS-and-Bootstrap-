@@ -1,0 +1,56 @@
+ body {
+	margin: 40px;
+}
+
+.main-header {
+	height: 30px;
+	top: 0px;
+	background-color: greenyellow;
+}
+
+.main-footer { 
+	height: 30px; 
+	bottom: 0px;
+	background-color: greenyellow;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-align: center;
+	grid-column-gap: 10px;
+	grid-row-gap: 1em;
+	background-color: #fff;
+	color: #444;
+}
+
+.wrapper > div {
+  border: 2px solid #737373;
+  border-radius: 5px;
+  background-color: #6f9023;
+  padding: 1em;
+  color: black;
+}
+
+.nested {
+  border: 2px solid #737373;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+
+.box {
+	background-color: #444;
+	color: #fff;
+	height: 130px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+
+p { color : black; 
+	font-family : arial;
+	font-size : 100%;
+}
+
+

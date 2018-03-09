@@ -1,0 +1,49 @@
+@import "import.css";
+h1 { color : #ffff33; background : #3399ff }
+h2 { color : blue; background : yellow }
+p { color : red ; background : white }
+.frame { border : 0.2em solid red }
+p.frame { border : 0.2em solid blue ; width: 20% }
+
+#span1 { background : yellow }
+#span2 { background : lime }
+
+p#para1 { background : cyan ; width :30% }
+
+a[href] { color : #009999 }
+
+a[href][title] { background :  #3300cc }
+
+a[href="#top"] { border : 0.2em solid blue }
+
+a[id] { background : orange }
+
+/* set button menu position */
+dl#menu		 { position: absolute; top: 200px; left: 500px ; width: 150px }
+
+/* set general button styles */
+dt.btn { margin-bottom: 5px; text-align: center }
+
+/* set general anchor styles */ 
+dt.btn a{ display: block; color: white; font-weight: bold; text-decoration: none }
+
+/* specify state styles...*/
+
+/* mouseout (default) */ 
+dt.btn a:link, a:visited{ background: blue;  border: 5px outset blue } 
+ 
+/* mouseover */ 
+dt.btn a:hover { background: red;   border: 5px outset red  } 
+ 
+/* omousedown */ 
+dt.btn a:active { background: green; border: 5px inset green }
+
+
+
+
+
+
+
+
+
+

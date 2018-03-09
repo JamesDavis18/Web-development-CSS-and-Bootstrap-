@@ -1,0 +1,13 @@
+h1 { color : #ffff33; background : #3399ff }
+h2 { color : blue; background : yellow }
+p { color : black ; background : white }
+
+span { background : yelow ; margin : 0 0 0 10em }
+
+p { background: url(tile.gif) gray repeat ; height : 3.5em }
+
+p#x { background-repeat : repeat-x }
+
+p#y { background-repeat : repeat-y }
+
+p#no { background-repeat : no-repeat }

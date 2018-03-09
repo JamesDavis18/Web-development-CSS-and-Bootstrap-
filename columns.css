@@ -1,0 +1,56 @@
+h1 { color : black;
+	font-family: georgia;
+	font-size: 300%;
+}
+
+h2 { color : blue; 
+	font-family : verdana;
+	font-size : 150%;
+}
+
+h3 { color : black;
+	font-family : helvetica;
+	font-size : 120%;
+}
+
+p { color : black; 
+	font-family : arial;
+	font-size : 100%;
+	text-align : left
+}
+
+img[src="viper-1.jpg"] { float : right ; border : 3px dashed red }
+
+img[src="viper-2.jpg"] { float : left ; border : 3px dashed blue }
+
+p.clear { clear : left }
+
+* { margin: 0; padding : 0 ; text-align : center }
+
+html, body { height : 100% ; background : HoneyDew }
+
+#wrapper
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	font-family : arial;
+	font-size : 100%;
+	/* bottom margin is the nagative value of the footer's height */
+}
+
+#hdr { height: 80px; background : #4dffff ; padding-top : 10px }
+
+#ftr { height: 30px; background : #4dffff }
+
+#nav { float : left ; width : 140px ; height : 500px ; background : #8cff1a }
+
+#ads { float : right ; width : 120px ; background : aquamarine }
+
+#txt { margin : 0 100px ; height : 500px ; width :  1150px ; background : gainsboro }
+
+
+input:focus  { background: lime   }
+a:focus  { background: aqua   }
+

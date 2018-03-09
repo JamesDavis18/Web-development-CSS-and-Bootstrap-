@@ -1,0 +1,59 @@
+h1 { color : #ffff33; 
+	background : #3399ff;
+	font-family: georgia;
+	font-size: 300%;
+}
+
+h2 { color : blue; 
+	background : #80bfff;
+	font-family : verdana;
+	font-size : 150%;
+}
+
+p { color : blue; 
+	background : #bfff80;
+	font-family : arial;
+	font-size : 100%;
+}
+
+p#para1 { background : cyan ; width :30% }
+
+a[href] { color : #009999 }
+
+a[href][title] { background :  #3300cc }
+
+a[href="#top"] { border : 0.2em solid blue }
+
+a[id] { background : orange }
+
+span { background : #333366 ; margin : 0 0 0 10em }
+
+span { background: url(tile.GIF) fushsia repeat ; height : 3.5em }
+
+p#x { background-repeat : repeat-x ; background-color : white }
+
+p#y { background-repeat : repeat-y ; background-color : white }
+
+p#no { background-repeat : no-repeat ; background-color : white }
+
+
+p.class { background : cyan ; width : 20em }
+
+p.pad { padding : 1em }
+
+p.bdr { padding : o.5em red solid }
+
+p.mgn { margin : 2em  }
+
+div {
+	width: 500px;
+	border: 15px solid gray;
+	padding: 25px;
+	margin: 25px;
+}
+
+li {
+	display: inline;
+}
+
+

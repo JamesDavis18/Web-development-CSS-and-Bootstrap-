@@ -1,0 +1,32 @@
+h1 { color : #ffff33; background : #3399ff }
+h2 { color : blue; background : yellow }
+p { color : red ; background : white }
+.frame { border : 0.2em solid red }
+p.frame { border : 0.2em solid blue ; width: 20% }
+
+p#para1 { background : cyan ; width :30% }
+
+a[href] { color : #009999 }
+
+a[href][title] { background :  #3300cc }
+
+a[href="#top"] { border : 0.2em solid blue }
+
+a[id] { background : orange }
+
+span { background : #333366 ; margin : 0 0 0 10em }
+
+p#x { background-repeat : repeat-x }
+
+p#y { background-repeat : repeat-y }
+
+p#no { background-repeat : no-repeat }
+
+
+p { background :  #993300 ; width : 20em }
+
+p.pad { padding : 1em }
+
+p.bdr { padding : o.5em red solid }
+
+p.mgn { margin : 2em  }
