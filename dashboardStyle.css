@@ -1,0 +1,43 @@
+h1 {
+	font-family: "Overpass", sans-serif
+}
+body,h2,h3,h4,h5,h6 {
+	font-family: "Verdana", sans-serif
+}
+
+#wrapper {
+	padding-left: 0;
+}
+
+#wrapper.toggled {
+	padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #F5FFFA;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+	padding-left: 250px;
+}
+
+#page-content-wrapper {
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+}
+
+#autolog-element {
+	white-space: nowrap;
+}	
+
+#autolog-element label {
+	padding-left: 0.5em;
+}

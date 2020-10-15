@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<title>Games website index (logged in)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="dashboardStyle.css" />
+<style type="text/css">
+.auto-style1 {
+	margin-left: 171;
+}
+</style>
+</head>
+
+<body class="w3-deep-purple w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<div id="wrapper">
+ <div id="sidebar-wrapper">
+   <nav class="w3-sidebar w3-collapse w3-white w3-animate-left w3-margin-left" style="z-index:3;width:300px;" class="toggled" id="left-sidebar">
+   <div class="w3-container">
+    <button class ="w3-bar-item w3-button" onclick="closeNav()" class="w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </button>
+    <img src="avatar-purple.png" style="width:45%;" class="w3-round"><br>
+	<h3>Login Sucessful</h3><br  />
+	<center><i class="fas fa-check fa-5x"></i></center><br  />
+    <h4><b>GAME CATEGORIES</b></h4>
+  </div>
+  <div class="w3-bar-block">
+	<a href="#Action" onclick="closeNav()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>All</a> 
+    <a href="#Action" onclick="closeNav()" class="w3-bar-item w3-button w3-padding w3-text-teal"><img src="Explosion_icn.PNG" width="20px" height="20px fa-fw w3-margin-right"></i>ACTION</a> 
+    <a href="#Adventure" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-map fa-fw w3-margin-right"></i>ADVENTURE</a> 
+    <a href="#RPG" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><img src="small_sword.jpg" width="20px" height="20px" class="w3-margin-right">RPG</a>
+	<a href="#Racing" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-flag-checkered fa-fw w3-margin-right"></i>RACING</a>
+	<a href="#Shooter" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-crosshairs fa-fw w3-margin-right"></i>SHOOTER</a>
+	<a href="#Survival" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-skull fa-fw w3-margin-right"></i>SURVIVAL</a>
+	<a href="#Strategy" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-chess-rook fa-fw w3-margin-right"></i>STRATEGY</a>
+	<a href="#Puzzle &  Skill" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-puzzle-piece fa-fw w3-margin-right"></i>PUZZLE & SKILL</a>
+	<a href="#Sports" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-futbol fa-fw w3-margin-right"></i>SPORTS</a>
+	<a href="#Misc" onclick="closeNav()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-question fa-fw w3-margin-right"></i>MISC</a>
+  </div>
+    <div class="w3-bar-block">
+	<h5><b>COMPLETE A SURVEY AND SEE THE REPORT</b></h5>
+	<a href="surveyData/Data.html"><i class="fas fa-poll-h"></i><p>View Data Results</p>
+	<a href="surveyData/Survey.html"><i class="fas fa-poll"></i><p>Start the Survey</p>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fab fa-facebook-square w3-hover-opacity"></i>
+    <i class="fab fa-instagram w3-hover-opacity"></i>
+    <i class="fab fa-twitter w3-hover-opacity"></i>
+	<i class="fab fa-discord w3-hover-opacity"></i><br>
+	<p class="w3-text-grey">Follow our social media and join our Discord server</p>
+  </div>
+</nav>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Header -->
+<header id="games_categories">
+  <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+   <span class="w3-button w3-xxlarge w3-hover-text-grey" onclick="openNav()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b><center>JD Games.com</center></b></h1>
+	<h3><center>A student project for Management Information Systems</center></h3>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><img src="Explosion_icn.PNG" width="20px" height="20px" class="w3-margin-right">Action</button>
+      <button class="w3-button w3-white w3-hide-small"><span class= "fa fa-map fa-fw w3-margin-right"></span>Adventure</button>
+      <button class="w3-button w3-white w3-hide-small"><img src="small_sword.jpg" width="20px" height="20px" class="w3-margin-right">RPG</button>
+	  <button class="w3-button w3-white w3-hide-small"><span class="fa fa-crosshairs fa-fw w3-margin-right"></span>Shooter</button>
+	  <span class="w3-margin-right"></span>
+	  <button class="w3-button w3-white w3-hide-small"><span class="fa fa-skull fa-fw w3-margin-right"></span>Survival</button>
+	  <button class="w3-button w3-white w3-hide-small"><span class="fa fa-chess-rook fa-fw w3-margin-right"></span>Strategy</button>
+	  <button class="w3-button w3-white w3-hide-small"><span class="fa fa-puzzle-piece fa-fw w3-margin-right"></span>Puzzle & Skill</button>
+	  <button class="w3-button w3-white w3-hide-small"><span class="fa fa-question fa-fw w3-margin-right"></span>Misc</button>
+    </div>
+   </div>
+</header>
+  
+  <!-- First Game Grid-->
+  <div class="w3-row-padding">
+	<h3>Most popular Games</h3>
+    <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/Run_3.html" target="_blank">
+		<img src="Run3Image.png" alt="Run 3" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Run 3</b></p><a href="Game_pages/Run_3.html">Play »</a>
+        <p>The classic challenging run game, play incresingly difficult courses and jump all of the gaps to survive.</p>
+      </div>
+    </div>
+	 <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/Bullet_heaven.html" target="_blank">
+		<img src="Thumbnails/bullet_heaven.png" alt="Bullet Heaven" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Bullet Heaven</b></p><a href="Game_pages/Bullet_heaven.html">Play »</a>
+        <p>A classic Bullet Hell game, Go up against powerful bosses and take them down.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+	  <a href= "Game_pages/Effing_wrms.html" target="_blank">
+		<img src="Thumbnails/effingWrms.jpg" alt="Effing Worms" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Effing Worms 2</b></p><a href="Game_pages/Effing_wrms.html">Play »</a>
+        <p>Live as a giant hungry worm and devour everything in sight. Eat more to unlock powerful abilities.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Game Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/Sticky_ninja.html" target="_blank">
+		<img src="Thumbnails/sticky_ninja.jpg" alt="Sticky Ninja" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Sticky Ninja: Missions</b></p><a href="Game_pages/Sticky_ninja.html">Play »</a>
+        <p>Use ninja skills to clear difficult levels and defeat all enemies. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/Winged_bullet.html" target="_blank">
+		<img src="Thumbnails/winged_bullet.jpg" alt="Winged Bullet" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Winged Bullet</b></p><a href="Game_pages/Winged_bullet.html">Play »</a>
+        <p>A simple but fun Flappy Bird style game, use flowers to power your wings. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+	  <a href= "Game_pages/legends_of_kong.html" target="_blank">
+		<img src="Thumbnails/legendKong.jpg" alt="Legends of Kong" style="width:100%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Legends of Kong</b></p><a href="Game_pages/legends_of_kong.html">Play »</a>
+        <p>Play as a Jim and defeat the violent zombies with a huge variety of weapons.</p>
+      </div> 
+    </div>
+  </div>
+
+    <!-- Third Game Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/monster_legions.html" target="_blank">
+		<img src="Thumbnails/monsterlegions.jpg" alt="Monster Legions" style="width:90%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Monster Legions</b></p><a href="Game_pages/monster_legions.html">Play »</a>
+        <p>Select your cards and win against fearsome Samurai and monsters in a tactical battle</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+	  <a href= "Game_pages/cyclomaniac.html" target="_blank">		
+		<img src="Thumbnails/cyclomaniac.jpg" alt="Cyclomaniacs" style="width:90%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Cyclomaniacs 2</b></p><a href="Game_pages/cyclomaniac.html">Play »</a>
+        <p>Race as the Cyclo King against other riders and ninjas. Try to beat the other racers with stunts and speed</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+	  <a href="Game_pages/Learn_to_fly.html" target="_blank">
+		<img src="Thumbnails/learn2fly.jpg" alt="Learn to fly" style="width:90%" height="200px" class="w3-hover-opacity">
+	  </a>
+      <div class="w3-container w3-white">
+        <p><b>Learn to Fly 2</b></p><a href="Game_pages/Learn_to_fly.html">Play »</a>
+        <p>Play as a penguin learning to fly to escape Antartica and get upgrades.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Avatar Selection -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <table style="width:100%">
+	 <tr>
+      <td><img src="ghost-avatar.png" alt="ghost"></td>
+      <td><img src="penguin-avatar.png" alt="penguin" style="width:150px height:150px"></td>
+      <td><img src="skull_avatar.jpg" alt="skull" style="width:150px height:150px"></td>
+	  <td><img src="girl-avatar.png" alt="girl" style="width:150px height:150px"></td>
+     </tr>
+    </table><br>
+	<center><table style="width:25%">
+	 <tr>
+	  <td><a href="#" class="w3-bar-item w3-button-large w3-hover-PaleVioletRed"><i class="far fa-arrow-alt-circle-left" style="font-size: 50px" ></i></a></td>
+	  <td><a href="#" class="w3-bar-item w3-button-large w3-hover-PaleVioletRed"><i class="far fa-arrow-alt-circle-right" style="font-size: 50px"></i></a></td>
+	 <tr>
+	</table></center>
+	</div>
+ </div>	
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4>Game progress:</h4>
+    <!-- Progress bars / Skills -->
+    <p class="auto-style1">Overall Progress</p>
+    <div class="w3-grey" style="width:70%; margin-left:150px;">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%;">95%</div>
+    </div>
+    <p>Achievements</p>
+    <div class="w3-grey" style="width:70%; margin-left:150px;">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%;">85%</div>
+    </div>
+    <p>Score</p>
+    <div class="w3-grey" style="width:70%; margin-left:150px;">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%;">80%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" style="margin-left:150px;">
+        <i class="fa fa-download w3-margin-right"></i>View Leaderboards
+      </button>
+    </p>
+  </div>
+    <hr>
+    
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Site Details</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Contact us: jdgames@epic.net</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fas fa-headset w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Support</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fas fa-user-minus w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Delete Account</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey" margin="50px">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Comments</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">SomberCert</span><br>
+          <span>I got my new highscore on Learn to die. Amazing game</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Tinsiarite</span><br>
+          <span>This website has run 3 on it! Absolute classic!</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Difficult</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">.io</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Indie</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Cars</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shooters</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Platformers</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Retro</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Singleplayer</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Online</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Causual</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Real-time</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tower-Defense</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+</div>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to toggle the sidebar to open and close
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+// Script to open and close sidebar
+
+function openNav() {
+    document.getElementById("left-sidebar").style.width = "350px";
+	document.getElementById("left-sidebar").style.display = "block";
+	document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("left-sidebar").style.width = "0";
+	document.getElementById("left-sidebar").style.display = "none";
+	document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
